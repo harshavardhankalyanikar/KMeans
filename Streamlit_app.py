@@ -69,7 +69,7 @@ def load_model():
 def load_data():
     """Load the original customer data"""
     try:
-        df = pd.read_csv("Mall_Customers.csv")
+        df = pd.read_csv("Mall_Customers (3).csv")
         return df
     except FileNotFoundError:
         st.error("Data file not found.")
@@ -338,3 +338,4 @@ st.markdown("""
     <p>🛍️ Mall Customer Clustering Analysis | Powered by K-Means & Decision Tree ML Models</p>
     </div>
 """, unsafe_allow_html=True)
+
